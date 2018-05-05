@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <MobileCoreServices/MobileCoreServices.h>
 
 #import "SharedStrings.h"
 

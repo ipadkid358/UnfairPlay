@@ -1,3 +1,5 @@
+// Thanks https://bitbucket.org/lordscotland/dump/src/master/decrypt.c
+
 #import <Foundation/Foundation.h>
 #import <dlfcn.h>
 #import <mach-o/dyld.h>
@@ -5,8 +7,6 @@
 #import <mach-o/loader.h>
 
 #import "SharedStrings.h"
-
-// Thanks https://bitbucket.org/lordscotland/dump/src/master/decrypt.c
 
 static size_t stream_copy(FILE *src, FILE *dest, size_t maxlen) {
     size_t nbytes = 0;

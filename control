@@ -2,7 +2,7 @@ Package: com.ipadkid.unfairplay
 Name: UnfairPlay
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: Decrypt apps on Electra
+Description: Decrypt apps on Electra. Usage: unfairplay <bundleID>. List as many bundleIDs as you'd like
 Maintainer: ipad_kid <ipadkid358@gmail.com>
 Author: ipad_kid <ipadkid358@gmail.com>
 Section: System
